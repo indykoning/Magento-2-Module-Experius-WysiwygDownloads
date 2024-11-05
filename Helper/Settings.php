@@ -101,7 +101,7 @@ class Settings extends AbstractHelper
             'jpeg',
             'png',
             'gif',
-            'webp',
+            // 'webp', // Unfortunately Magento's GD2 adapter does not support webp yet https://github.com/magento/magento2/blob/6acfd6aa744c905f7694f2cddd5b0add5bf202b7/lib/internal/Magento/Framework/Image/Adapter/Gd2.php#L29
             'bmp',
             'xpm',
             'xbm',
